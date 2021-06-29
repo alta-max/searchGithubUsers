@@ -1,30 +1,4 @@
-## Starter Project
-
-- css provided (global styles, styled components)
-- folders/files already setup
-- all imports included (warnings)
-- index.js for easier imports
-
-## Styled Components
-
-[Styled-Components - Main Docs](https://styled-components.com/)
-
-```jsx
-import styled from "styled-components";
-
-const ReactComponent = () => {
- // logic here
- return <Wrapper>
- {some content}
- </Wrapper>
-}
-
-
-const Wrapper = styled.htmlElement`
-write your styles here
-`
-export default ReactComponent
-```
+````
 
 ## React Icons
 
@@ -33,7 +7,7 @@ export default ReactComponent
 ```jsx
 import { FiUsers, FiUserPlus } from 'react-icons/fi';
 <FiUsers className='nameOfTheClass'> </FiUsers>;
-```
+````
 
 ## React Router Dom
 
